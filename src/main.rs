@@ -57,6 +57,42 @@ fn main() {
 
     println!("Area of rectangle is {:?}",rect1.area());
 // }
+
+
+println!("Hello, world!");
+
+// let v: Vec<i32> = Vec::new();
+
+let mut v = vec![1, 2];
+
+v.push(4);
+v.push(5);
+
+println!("{:?}", v);
+
+let third = &v[2];
+println!("The value of third number is {}", third);
+
+match v.get(4) {
+    Some(third) => println!("The 3rd element is {}", third),
+    None => println!("There is no element exists."),
+}
+
+let v1 = vec![1, 2, 3, 4];
+for i in &v1 {
+    println!("{}", i);
+}
+
+
+
+
+
+
+
+
+
+
+
 }
 
 #[derive(Debug)]
