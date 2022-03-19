@@ -120,5 +120,6 @@ impl Rectangle {
 1. String
 2.struct
 3. Function 
+4. Vector
 
 */
